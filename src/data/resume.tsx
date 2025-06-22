@@ -2,15 +2,15 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Dillion Verma",
-  initials: "DV",
-  url: "https://dillion.io",
-  location: "San Francisco, CA",
+  name: "Raman Kumar Kannaujiya",
+  initials: "RK",
+  url: "https://ramankannaujiya.com",
+  location: "Delhi, India",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
+    "I am a Software Engineer. I love building things. Very active on LinkedIn.",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "At the end of 2025, I quit my job as a Crash Engineer for Vehicles to go fulltime into building and scaling Startups. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
   avatarUrl: "/me.png",
   skills: [
     "React",
@@ -21,7 +21,6 @@ export const DATA = {
     "Go",
     "Postgres",
     "Docker",
-    "Kubernetes",
     "Java",
     "C++",
   ],
@@ -30,33 +29,32 @@ export const DATA = {
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "ramankannaujiya@gmail.com",
+    tel: "+916391222555",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/raman0925",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://www.linkedin.com/in/ramaninnovator/",
         icon: Icons.linkedin,
-
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "https://x.com/unseenpoint",
         icon: Icons.x,
 
         navbar: true,
       },
       Youtube: {
         name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
+        url: "https://www.youtube.com/@ramankumarkannaujiya",
         icon: Icons.youtube,
         navbar: true,
       },
@@ -146,35 +144,35 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Buildspace",
+      school: "Lingayas Vidyapeeth",
       href: "https://buildspace.so",
-      degree: "s3, s4, sf1, s5",
+      degree: "Btech in Computer Science and Engineering",
       logoUrl: "/buildspace.jpg",
-      start: "2023",
-      end: "2024",
+      start: "2022",
+      end: "2025",
     },
     {
-      school: "University of Waterloo",
-      href: "https://uwaterloo.ca",
-      degree: "Bachelor's Degree of Computer Science (BCS)",
+      school: "Government Polytechnic Lucknow",
+      href: "https://gplucknow.com",
+      degree: "Diploma in Mechanical Engineering (Automobile)",
       logoUrl: "/waterloo.png",
-      start: "2016",
-      end: "2021",
+      start: "2019",
+      end: "2022",
     },
     {
-      school: "Wilfrid Laurier University",
+      school: "JLTRIC Kalwari, Basti",
       href: "https://wlu.ca",
-      degree: "Bachelor's Degree of Business Administration (BBA)",
+      degree: "Matriculation",
       logoUrl: "/laurier.png",
       start: "2016",
-      end: "2021",
+      end: "2019",
     },
     {
-      school: "International Baccalaureate",
+      school: "Divine Child High School",
       href: "https://ibo.org",
-      degree: "IB Diploma",
+      degree: "Schooling",
       logoUrl: "/ib.png",
-      start: "2012",
+      start: "2006",
       end: "2016",
     },
   ],
